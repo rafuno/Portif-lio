@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
-import { Container } from "./styles/container";
+
 import GlobalStyles from "./styles/global";
 import Home from "./pages/Home";
 import About from "./pages/About";
