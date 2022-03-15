@@ -28,8 +28,6 @@ const GlobalStyles: GlobalStyleComponent<
       box-sizing: border-box;
     }
 
-  
-
     body,
     input,
     select,
@@ -83,9 +81,6 @@ const GlobalStyles: GlobalStyleComponent<
       font-weight: 300;
       font-size: 16px;
     }
-
-    a,
-    
   `}
 
 `;

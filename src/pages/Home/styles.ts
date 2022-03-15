@@ -1,8 +1,15 @@
 import styled, { css } from "styled-components";
 export const ContainerHome = styled.div`
   ${({ theme }) => css`
-    margin: 110px 0;
+    padding-top: 110px;
     height: 100vh;
+    background: linear-gradient(
+      180deg,
+      #483178 0%,
+      #483178 14.28%,
+      #9e3f77 100%
+    );
+
     .container-title {
       background: linear-gradient(
         180deg,
@@ -13,6 +20,7 @@ export const ContainerHome = styled.div`
         #28061e 88.54%,
         #220517 100%
       );
+      border: 2px solid ${theme.colors.lightWhite};
       border-radius: 40px;
       width: 250px;
       height: 100px;
@@ -33,6 +41,7 @@ export const ContainerHome = styled.div`
       h1 {
         color: ${theme.colors.lightGreen};
         font-size: 20px;
+
         @media (min-width: ${theme.screen.md}px) {
           font-size: 40px;
         }

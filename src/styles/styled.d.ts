@@ -16,7 +16,10 @@ declare module "styled-components" {
       green: string;
       lightGreen: string;
       white: string;
-      lightWhite;
+      lightWhite: string;
+      yellowLetter: string;
+      blueLetter: string;
+      pinkDot: string;
     };
     screen: {
       sl: number;

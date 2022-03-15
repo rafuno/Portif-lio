@@ -27,6 +27,9 @@ export default {
     lightGreen: "#4EDC4A",
     white: "#F4E4F4",
     lightWhite: "#D2D4EB",
+    yellowLetter: "#D4DD6C",
+    blueLetter: "#7B69A4",
+    pinkDot: "#DE0DEE",
   },
   font: {
     family: "Roboto, sansserif",
